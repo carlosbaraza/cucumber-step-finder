@@ -1,0 +1,22 @@
+# See https://atom.io/docs/latest/creating-a-package#menus for more details
+'context-menu':
+  'atom-text-editor': [
+    {
+      'label': 'Toggle cucumber-step-finder'
+      'command': 'cucumber-step-finder:toggle'
+    }
+  ]
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'cucumber-step-finder'
+      'submenu': [
+        {
+          'label': 'Toggle'
+          'command': 'cucumber-step-finder:toggle'
+        }
+      ]
+    ]
+  }
+]

@@ -1,0 +1,16 @@
+{
+  "name": "cucumber-step-finder",
+  "main": "./lib/cucumber-step-finder",
+  "version": "0.0.0",
+  "description": "A short description of your package",
+  "activationCommands": {
+    "atom-workspace": "cucumber-step-finder:toggle"
+  },
+  "repository": "https://github.com/atom/cucumber-step-finder",
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "dependencies": {
+  }
+}
